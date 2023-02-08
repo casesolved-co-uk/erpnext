@@ -140,7 +140,6 @@
    "oldfieldtype": "Link",
    "options": "Item",
    "print_width": "100px",
-   "reqd": 1,
    "search_index": 1,
    "width": "100px"
   },
@@ -178,7 +177,6 @@
    "oldfieldname": "description",
    "oldfieldtype": "Text",
    "print_width": "300px",
-   "reqd": 1,
    "width": "300px"
   },
   {
@@ -267,6 +265,7 @@
    "width": "100px"
   },
   {
+   "default": "1.00",
    "depends_on": "eval:doc.uom != doc.stock_uom",
    "fieldname": "conversion_factor",
    "fieldtype": "Float",
@@ -1010,7 +1009,7 @@
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-11-02 12:49:28.746701",
+ "modified": "2023-02-08 19:58:47.165212",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Purchase Receipt Item",
