@@ -218,6 +218,7 @@ def update_packed_item_price_data(pi_row, item_data, doc):
 def update_packed_item_from_cancelled_doc(main_item_row, packing_item, pi_row, doc):
 	"Update packed item row details from cancelled doc into amended doc."
 	prev_doc_packed_items_map = None
+	return
 	if doc.amended_from:
 		prev_doc_packed_items_map = get_cancelled_doc_packed_item_details(doc.packed_items)
 
